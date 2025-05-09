@@ -1,5 +1,5 @@
 <p align="center" style="background-color: black">
-  <img src="/studicious-app/public/Studicious.png" alt="Studicious Logo">
+  <img src="/studicious-app/public/favicon.png" alt="Studicious Logo">
 </p>
 
 # Studicious 📝
