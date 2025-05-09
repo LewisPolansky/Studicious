@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can be added here after Tailwind directives */
+/* Keep base font styles and dark mode setup */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* Default text color handled by Tailwind */
+  /* background-color: #242424; */ /* Handled by Tailwind body/html styles */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove body centering - let components handle layout */
+/* body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+} */
+
+/* Default heading/button styles handled by Tailwind base */
+
+@media (prefers-color-scheme: light) {
+  :root {
+     /* color: #213547; */ /* Handled by Tailwind */
+     /* background-color: #ffffff; */ /* Handled by Tailwind */
+  }
+  /* Other specific light mode overrides if necessary */
+}
+
+/* Add any additional custom utilities or components */
+@layer components {
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-sm;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-md transition-colors duration-150;
+  }
+  
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white;
+  }
+}

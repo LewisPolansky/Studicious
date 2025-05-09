@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Step 1: Gather your learning concepts",
+    "definition": "Make a list of all the concepts, terms, or formulas you need to learn. Think about key topics from lectures, textbooks, or your notes."
+  },
+  {
+    "name": "Step 2: Copy the ChatGPT prompt",
+    "definition": "Paste your list of concepts into the text area and click 'Copy ChatGPT Prompt'. The app will format it properly for AI processing."
+  },
+  {
+    "name": "Step 3: Use ChatGPT to format your concepts",
+    "definition": "Go to chat.openai.com, paste the prompt, and wait for ChatGPT to return your list formatted as JSON. This converts your raw list into a structured format."
+  },
+  {
+    "name": "Step 4: Paste the JSON into Studicious",
+    "definition": "Copy the entire JSON output from ChatGPT and paste it into the 'Paste the ChatGPT JSON' text area. Click 'Process JSON' to load your concepts."
+  },
+  {
+    "name": "Step 5: Review and customize your concepts",
+    "definition": "Check each concept definition for accuracy. Uncheck any concepts you already know well - they won't appear in your final study guide."
+  },
+  {
+    "name": "Step 6: Adjust PDF settings",
+    "definition": "Customize your PDF by adjusting font sizes, spacing, and other formatting options to create a study guide that works best for you."
+  },
+  {
+    "name": "Step 7: Generate your study guide",
+    "definition": "Click the 'Generate PDF' button to preview your study guide. Review it to make sure everything looks right."
+  },
+  {
+    "name": "Step 8: Download and study",
+    "definition": "Once you're happy with your study guide, click 'Download PDF' to save it. Print it out or keep it on your device for efficient studying!"
+  }
+]
