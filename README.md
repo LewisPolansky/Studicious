@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Studicious.png" alt="Studicious Logo">
+  <img src="/studicious-app/public/Studicious.png" alt="Studicious Logo">
 </p>
 
 # Studicious 📝
