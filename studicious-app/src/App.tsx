@@ -1,6 +1,7 @@
 import { useState, useEffect, type ChangeEvent, useRef } from 'react';
 import jsPDF from 'jspdf';
 import DOMPurify from 'dompurify';
+import GitHubButton from 'react-github-btn';
 import './App.css';
 import StudiciousLogo from '../public/Studicious.png';
 
@@ -523,13 +524,20 @@ function App() {
   return (
     <div className={`min-h-screen py-8 ${darkMode ? 'dark-mode' : ''} studicious-bg`}>
       {/* Dark Mode Toggle - Sticky */}
-      <button
-        onClick={() => setDarkMode(!darkMode)}
-        className="theme-toggle"
-        aria-label={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-      >
-        {darkMode ? '🌞' : '🌚'}
-      </button>
+      <div className="theme-controls">
+        <button
+          onClick={() => setDarkMode(!darkMode)}
+          className="theme-toggle"
+          aria-label={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+        >
+          {darkMode ? '🌞' : '🌚'}
+        </button>
+      </div>
+
+      {/* GitHub Stars */}
+      <div className="gh-stars">
+        <GitHubButton href="https://github.com/LewisPolansky/studicious" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star LewisPolansky/studicious on GitHub">Star</GitHubButton>
+      </div>
 
       {/* Hidden container for formula rendering - not visible but used for HTML content */}
       <div 
